@@ -45,14 +45,5 @@ Running the DCC-Tree.py file will run the training. Tree information/statistics 
 
 There are several synthetic testing datasets that can be selected via the --dataset argument, available options are listed in the load_data method in utils.py. More information about formatting datasets into the appropriate structure can be found in ./datasets/README.txt
 
-
-##############################################
-		 Results
-##############################################
-
-Results from the paper were generated via CPU cores, either using Intel Cascade Lake CPU's (OS: Rocky Linux release 8.9 (Green Obsidian)) via a HPC cluster or using a MacBook Pro (16-inch, 2021) with an Apple M1 Pro processor. Note that the raw output results are too large to be included for submission (~10-20GB due to number of samples requested). However, these have been converted into matlab data files (in results folder) which display performance metrics.
-
-If Matlab is installed, figures and tabular results from the paper can be reproduced by running plot_results.m. Converted results for all methods are included under the matlab subdirectory. Uncomment the dataset of interest on lines 6-11 and run in the plot_results.m file and run to produce results relating to that dataset.
-
-Note that, although attempts have been made to ensure the exact reproducibility of the results (i.e. random seeds set), at the current moment this has not yet been achieved.
+Results from the paper were generated via CPU cores, either using Intel Cascade Lake CPU's (OS: Rocky Linux release 8.9 (Green Obsidian)) via a HPC cluster or using a MacBook Pro (16-inch, 2021) with an Apple M1 Pro processor.
 
